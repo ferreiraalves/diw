@@ -1,0 +1,39 @@
+.search-bar{
+  text-align:right;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.a{
+  border-color: : black;
+  border-style: solid;
+  margin: 25px 50px 75px 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.carrossel{
+    text-align: center;
+}
+
+.carrossel-img{
+  height: 50%;
+  width: 50%;
+}
+
+img{
+  padding: 10px;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+
+p{
+  text-align: left;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+}
