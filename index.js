@@ -10,7 +10,7 @@ var news = {
       Durante a reunião, Bolsonaro destacou a importância de trabalhar junto com Legislativo e Judiciário, defendeu as instituições e condenou os ataques sofridos pelo Congresso e pelo Supremo nas manifestações do domingo passado, promovidas pelos seus apoiadores.
       `
 
-      
+
     },
     {
       "id": 2,
@@ -42,10 +42,11 @@ var news = {
 
 // Caso exista no Local Storage, recupera os dados salvos
 function get_db(){
-  var current_db = JSON.parse(localStorage.getItem('db'));
-  if (!current_db) {
-    current_db = news;
-  };
+  // var current_db = JSON.parse(localStorage.getItem('db'));
+  // if (!current_db) {
+  //   current_db = news;
+  // };
+  current_db = news;
   return current_db;
 }
 
