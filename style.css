@@ -136,9 +136,24 @@ display: none;
   width: 50%;
 }
 
+
+
 .main-text{
   font-size: 22px;
   padding: 5% 5%;
   text-align: justify;
   text-justify: inter-word;
+}
+
+
+@media (max-width: 1000px) {
+  .main-picture {
+    width: 80%;
+  }
+  .main-text{
+    font-size: 16px;
+  }
+  .single-news-title{
+    font-size: 20px;
+  }
 }
