@@ -123,3 +123,22 @@ display: none;
   font-size: 16px;
   color: #636363;
 }
+
+
+
+.single-news-title{
+  color: #a81c36;
+  padding: 10px;
+  align-items: center;
+}
+
+.main-picture{
+  width: 50%;
+}
+
+.main-text{
+  font-size: 22px;
+  padding: 5% 5%;
+  text-align: justify;
+  text-justify: inter-word;
+}
