@@ -83,7 +83,7 @@ function build_news_page(){
         <div class="media">
         <div class="media-left">
         <a href="news.html?id=${noticia.id}">
-        <img class="media-object" src="${noticia.image_url}" alt="...">
+        <img class="media-object fixed-size-image" src="${noticia.image_url}" alt="...">
         </a>
         </div>
         <div class="media-body">
