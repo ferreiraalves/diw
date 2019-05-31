@@ -1,45 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Grobo News</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </head>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>DIW NEWS</title>
+</head>
 
-  <body>
-    <div class="search-bar">
-      <input type="search" name="" value="Search..." class="">
+<body>
+
+  <script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function autoScale() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="index-ajax.html">AJAX News</a>
+    <a href="#contact">Contato</a>
+    <a href="#about">Sobre</a>
+    <a href="javascript:void(0);" class="icon" onclick="autoScale()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="container-fluid text-center">
+  <div class="row content diferentao">
+    <div class="col-sm-1 sidenav">
     </div>
-    <div class="container">
-      <div class="carrossel">
-        <img src="imgs/carrossel.png" alt="" class="carrossel-img">
+    <div class="col-sm-10 text-left" id="news-main-block">
+
+      <div class="media">
+        <div class="media-left">
+          <a href="media.html">
+            <img class="media-object" src="imgs/lixo.jpg" alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading">Presidentes dos 3 poderes vão firmar pacto por reformas em 10 de junho</h2>
+          <p class="media-description">Em encontro nesta terça-feira (28) no Palácio da Alvorada, os presidentes dos três poderes resolveram assinar um pacto a favor das reformas em 10 de junho. O texto foi apresentado durante encontro entre o presidente Jair Bolsonaro e os presidentes da Câmara, Rodrigo Maia, do Senado, Davi Alcolumbre, e do STF, Dias Toffoli.</p>
+        </div>
       </div>
-      <a href="news.html">
-        <div class="row a">
-          <div class="col-md-3">
-            <img src="https://s2.glbimg.com/_CQvghMKC-laybETlQ9R5kVD7m8=/0x0:5550x3700/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/b/a/N8KcBkRzG9KUBvBmjEeQ/ricardo-velez.jpg" alt="">
-          </div>
-          <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis eleifend lorem, vitae commodo est blandit ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec consectetur cursus justo eu suscipit. Nam elementum justo vitae rutrum tincidunt. Curabitur velit diam, porta ac felis eu, aliquam imperdiet urna. </p>
-          </div>
+      <hr>
+      <div class="media">
+        <div class="media-left">
+          <a href="media.html">
+            <img class="media-object" src="imgs/lixo.jpg" alt="...">
+          </a>
         </div>
-      </a>
-      <a href="news.html">
-        <div class="row a">
-          <div class="col-md-3">
-            <img src="https://s2.glbimg.com/_CQvghMKC-laybETlQ9R5kVD7m8=/0x0:5550x3700/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/b/a/N8KcBkRzG9KUBvBmjEeQ/ricardo-velez.jpg" alt="">
-          </div>
-          <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis eleifend lorem, vitae commodo est blandit ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec consectetur cursus justo eu suscipit. Nam elementum justo vitae rutrum tincidunt. Curabitur velit diam, porta ac felis eu, aliquam imperdiet urna. </p>
-          </div>
+        <div class="media-body">
+          <h2 class="media-heading">Presidentes dos 3 poderes vão firmar pacto por reformas em 10 de junho</h2>
+          <p class="media-description">Em encontro nesta terça-feira (28) no Palácio da Alvorada, os presidentes dos três poderes resolveram assinar um pacto a favor das reformas em 10 de junho. O texto foi apresentado durante encontro entre o presidente Jair Bolsonaro e os presidentes da Câmara, Rodrigo Maia, do Senado, Davi Alcolumbre, e do STF, Dias Toffoli.</p>
         </div>
-      </a>
+      </div>
+
     </div>
-  </body>
+    <div class="col-sm-1 sidenav">
+    </div>
+  </div>
+</div>
+
+
+</body>
 </html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="index.js"></script>
+<script>
+    listarNoticias();
+</script>
