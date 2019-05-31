@@ -28,7 +28,8 @@ function getNoticias(){
                     "titulo": artigo.title,
                     "short_text": artigo.description,
                     "image_url": artigo.urlToImage,
-                    "full_text": conteudo
+                    "full_text": conteudo,
+                    "url": artigo.url
                 }
                 news.push(nova_news)
 
@@ -79,7 +80,9 @@ function listarNoticiasAjax() {
       $("#single-news-main-block-ajax").html("");
       $("#single-news-main-block-ajax").append(`
         <h1 class="single-news-title">${noticia.titulo}</h1>
-        <img class="media-object main-picture" src="${noticia.image_url}" alt="...">
+        <a href="${noticia.url}">
+            <img class="media-object main-picture" src="${noticia.image_url}" alt="...">
+        </a>
         <p class="media-description main-text">
         ${noticia.full_text}
         </p>
