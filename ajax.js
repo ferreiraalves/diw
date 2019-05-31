@@ -36,6 +36,7 @@ function getNoticias(){
             }
             // Atualiza os dados no Local Storage
             localStorage.setItem('news', JSON.stringify(news));
+            listarNoticiasAjax();
 
         });
     });
