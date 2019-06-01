@@ -42,6 +42,10 @@ function getNoticias(){
     });
 }
 
+function goToNoticia(id){
+  location.href = `news-ajax.html?id=${id}`;
+}
+
 
 function listarNoticiasAjax() {
     current_db = get_db();
@@ -59,7 +63,9 @@ function listarNoticiasAjax() {
             </a>
             </div>
             <div class="media-body">
+            <a href="news-ajax.html?id=${noticia.id}" style="text-decoration: none;">
             <h2 class="media-heading">${noticia.titulo}</h2>
+            </a>
             <p class="media-description">${noticia.short_text}</p>
             </div>
             </div>

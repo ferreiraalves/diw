@@ -87,7 +87,9 @@ function build_news_page(){
         </a>
         </div>
         <div class="media-body">
+        <a href="news.html?id=${noticia.id}" style="text-decoration: none;">
         <h2 class="media-heading">${noticia.titulo}</h2>
+        </a>
         <p class="media-description">${noticia.short_text}</p>
         </div>
         </div>
